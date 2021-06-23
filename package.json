@@ -1,0 +1,23 @@
+{
+  "name": "web-pack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server --mode development --open "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "devDependencies": {
+    "css-loader": "^3.5.2",
+    "style-loader": "^1.1.4",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
